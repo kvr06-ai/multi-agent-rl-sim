@@ -1,0 +1,9 @@
+[server]
+fileWatcherType = "none"
+
+[runner]
+# Avoid issues with watchdog and PyTorch
+fastReruns = true
+
+[browser]
+gatherUsageStats = false 
